@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.example.TriangleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in org.example.TriangleTest
+org.example.TriangleTest.triangleNoExist  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected [треугольника не существует] but found [NaN]
+	at org.example.TriangleTest.triangleNoExist(TriangleTest.java:24)
+
