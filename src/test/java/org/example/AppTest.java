@@ -59,7 +59,7 @@ public class AppTest
         System.out.println(webDriver.findElement(By.id("input-search-key")).getAttribute("value"));
         Assertions.assertTrue(webDriver.findElement(By.id("input-search-key")).getAttribute("value").equals("фото"));
 
-       //webDriver.quit();
+
 }
 
     @Test
@@ -90,7 +90,7 @@ public class AppTest
        webDriver.findElement(By.id("autorization"));
         webDriver.findElement(By.linkText("[выйти]"));
        actions2.click(webDriver.findElement(By.linkText("[выйти]"))).build().perform();*/
-    webDriver.quit();
+
     }
 
     @Test
@@ -116,10 +116,10 @@ public class AppTest
         Assertions.assertFalse(webDriver.findElement(By.name("USER_LOGIN")).getAttribute("value").equals("maxim@f1.nnov.ru"));
 
 
-        webDriver.quit();
+
     }
-    /*@AfterAll
+    @AfterAll
     static void exit() {
     webDriver.quit();
-    }*/
+    }
 }

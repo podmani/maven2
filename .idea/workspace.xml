@@ -198,12 +198,17 @@
       <recent name="C:\Users\User1\IdeaProjects\maven2\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SearchKeyTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,65 +219,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="TestLogin" />
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.LoginWindowTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginWindowTest.loginWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.LoginWindowTest" />
+      <option name="METHOD_NAME" value="loginWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestNegativeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchKeyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="TestNegativeLogin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.SearchKeyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.TestPositiveLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchKeyTest.searchKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="TestPositiveLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.TestSearchKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
-      <option name="METHOD_NAME" value="TestSearchKey" />
+      <option name="PACKAGE_NAME" value="org.example.lesson6" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.SearchKeyTest" />
+      <option name="METHOD_NAME" value="searchKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchKeyTest" />
+        <item itemvalue="JUnit.LoginWindowTest.loginWindow" />
+        <item itemvalue="JUnit.SearchKeyTest.searchKey" />
+        <item itemvalue="JUnit.LoginWindowTest" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.TestNegativeLogin" />
-        <item itemvalue="JUnit.AppTest.TestPositiveLogin" />
-        <item itemvalue="JUnit.AppTest.TestLogin" />
-        <item itemvalue="JUnit.AppTest.TestSearchKey" />
       </list>
     </recent_temporary>
   </component>
@@ -385,6 +388,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
