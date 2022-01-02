@@ -1,1 +1,5 @@
 org\example\AppTest.class
+org\example\lesson6\LoginWindowTest.class
+org\example\lesson6\AbstractTest.class
+org\example\TriangleTest.class
+org\example\lesson6\SearchKeyTest.class

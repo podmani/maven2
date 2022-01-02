@@ -1,4 +1,4 @@
-# Created on 2021-12-23T18:39:35.884
+# Created on 2022-01-02T15:52:29.692
 org.apache.maven.surefire.util.SurefireReflectionException: java.lang.NoClassDefFoundError: org/junit/platform/commons/util/ClassNamePatternFilterUtils
 	at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:139)
 	at org.apache.maven.surefire.booter.ForkedBooter.createProviderInCurrentClassloader(ForkedBooter.java:398)
